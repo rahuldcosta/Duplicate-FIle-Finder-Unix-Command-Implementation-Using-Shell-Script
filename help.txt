@@ -1,0 +1,39 @@
+DUPLICATE(1)                                                                     User Commands                                                             DUPLICATE(1)
+
+NAME
+       ./dup.sh - compare two files whether it is same or not.
+
+SYNOPSIS
+       ./dup.sh [OPTION]... FILE1 FILE2 
+
+DESCRIPTION
+       Compare two files line by line.
+
+       Mandatory arguments to long options are mandatory for short options too.
+
+       -a FILE1 , -- for searching whole directory with one file ,shows the files that are diffrent.
+              
+
+       -d FILE1 FILE2 , -- shows which lines are different
+              		   line number and prints the differing line.
+
+       -s FILE1 FILE2 , -- shows if the file is different or not.
+
+	-sd FILE1 FILE2, -- does work of -s and -d options together
+
+	-sa FILE1 FILE2, -- does work of -s and -a options together
+	
+	-ad FILE1 FILE2, -- does work of -a and -d options together
+	
+	-sad FILE1 FILE2, -- does work of -s,-a and -d options together
+      
+ 	-h, -- display this help and exit
+
+AUTHOR
+       Written by Rahul Dcosta and kaushal kishore.
+
+REPORTING BUGS
+       Send us email if you have any problem with this command @ <kaushalkishorersmt@gmail.com>
+
+										January  2014                                                                    CMP(1)
+ 
